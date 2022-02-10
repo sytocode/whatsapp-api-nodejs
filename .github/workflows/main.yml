@@ -11,3 +11,4 @@ jobs:
         name: traien/whatsapp-api-nodejs
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
+        snapshot: true
